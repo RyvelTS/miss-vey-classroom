@@ -1,0 +1,187 @@
+{
+  "banner": "Spesial Pendaftaran: Pesan sesi konsultasi gratis hari ini! Slot terbatas.",
+  "nav": {
+    "logoTitle": "Miss Vey's",
+        "logoSubtitle": "Classroom",
+    "home": "Beranda",
+    "whyChooseUs": "Mengapa Kami",
+    "courses": "Program Kami",
+    "founder": "Profil Pendiri",
+    "faqs": "Tanya Jawab",
+    "contact": "Hubungi Kami",
+    "labelLanguage": "Bahasa",
+    "labelTheme": "Tema"
+  },
+  "hero": {
+    "badge": "Membina Pembicara Muda",
+    "headline": "Tempat Suara Kecil Tumbuh Menjadi ",
+    "headlineHighlight": "Pemimpin Percaya Diri",
+    "subheadline": "Kelas public speaking interaktif dan komunikasi kreatif untuk anak usia 5\u201314 tahun. Bantu anak Anda menemukan suaranya, berbicara dengan jelas, dan tampil percaya diri.",
+    "ctaBook": "Konsultasi Gratis",
+    "ctaCourses": "Eksplor Kelas",
+    "ratingText": "Dipercaya oleh lebih dari 200+ keluarga"
+  },
+  "whyChooseUs": {
+    "title": "Mengapa Orang Tua Memilih Kami",
+    "subtitle": "Membesarkan Anak yang Berbicara dengan Percaya Diri.",
+    "communicationTitle": "Meningkatkan Komunikasi",
+    "communicationText": "Kami mendidik anak-anak tidak hanya cara berbicara, tetapi juga cara mendengar, merespons, dan berbagi ide dengan bijaksana.",
+    "confidenceTitle": "Membangun Kepercayaan Diri",
+    "confidenceText": "Anak-anak belajar berbicara di depan umum secara bertahap, dalam lingkungan yang aman dan penuh dukungan.",
+    "learningTitle": "Belajar yang Menyenangkan",
+    "learningText": "Setiap sesi dilengkapi permainan, mendongeng, topik kreatif, dan aktivitas interaktif yang disukai anak-anak.",
+    "opportunitiesTitle": "Membuka Peluang",
+    "opportunitiesText": "Keterampilan berbicara yang kuat membantu anak menonjol dalam presentasi sekolah, kepemimpinan, dan peluang masa depan.",
+    "kasuariStage": "Kelas Kasuari",
+    "kasuariAge": "Usia 7-8 \u2022 Ekspresi Mendalam",
+    "echidnaStage": "Kelas Ekidna",
+    "echidnaAge": "Usia 5-6 \u2022 Langkah Pertama",
+    "bearStage": "Kelas Beruang",
+    "bearAge": "Usia 9-10 \u2022 Kepemimpinan & Debat",
+    "kasuariSpeech": "Halo!",
+    "echidnaSpeech": "Aku berani!",
+    "bearSpeech": "Hai!",
+    "claraBadge": "Clara \u2022 Usia 6",
+    "leoBadge": "Leo \u2022 Usia 9",
+    "gamesCaption": "Permainan interaktif yang dirancang oleh spesialis pendidikan.",
+    "claraAlt": "Clara berbicara dengan percaya diri",
+    "leoAlt": "Leo berbicara dengan percaya diri"
+  },
+  "curriculum": {
+    "badge": "Jalur Belajar Kami",
+    "title": "Program Bicara yang Terarah",
+    "subtitle": "Kami mengelompokkan anak berdasarkan usia dan perkembangan untuk memastikan setiap sesi terasa suportif, interaktif, dan sesuai dengan tingkat pertumbuhan mereka.",
+    "ageRange": "Rentang Usia",
+    "duration": "Durasi Sesi",
+    "keyOutcome": "Hasil Utama",
+    "bookClass": "Daftar Kelas Ini",
+    "closeDetails": "Tutup Detail",
+    "viewDetails": "Lihat Detail Kelas Lengkap",
+    "learningOutcomes": "Materi yang Akan Dipelajari Anak Anda:"
+  },
+  "founder": {
+    "badge": "Kenali Pendiri Kami",
+    "title": "Kisah & Visi Kami",
+    "subtitle": "Menghubungkan anak-anak dengan kekuatan ekspresi vokal yang ramah.",
+    "para1": "Halo! Saya Velita, pendiri Miss Vey's Classroom. Sebagai pengajar public speaking berpengalaman, saya mendedikasikan waktu bertahun-tahun untuk membantu anak-anak menemukan kebahagiaan dalam mengekspresikan ide mereka. Misi saya adalah membangun ruang kelas di mana setiap anak terlihat, terdengar, dan didukung penuh.",
+    "para2": "Kami percaya berbicara bukan tentang kesempurnaan yang kaku; melainkan tentang kehangatan, kepribadian, dan hubungan antar manusia. Kurikulum khusus kami memandu anak secara bertahap dari kalimat kecil yang malu-malu hingga mampu berdiri tegak, menggunakan gestur yang percaya diri, dan berbicara dari hati.",
+    "ctaText": "Mari kita mulai perjalanan berbicara anak Anda bersama-sama!",
+    "button": "Jadwalkan obrolan dengan Miss Vey"
+  },
+  "testimonials": {
+    "badge": "Dicintai oleh Banyak Keluarga",
+    "title": "Apa Kata Orang Tua",
+    "subtitle": "Dengarkan langsung kisah sukses dari para orang tua yang telah melihat buah hati mereka menemukan suara dan tingkat percaya diri mereka.",
+    "quote": "Rasa percaya diri dimulai dari benih dorongan yang tulus. Saksikan anak Anda berkembang pesat, mengekspresikan ide dengan kejelasan penuh, dan menginspirasi orang lain."
+  },
+  "faqs": {
+    "badge": "Ada Pertanyaan?",
+    "title": "Pertanyaan yang Sering Diajukan",
+    "subtitle": "Berikut adalah beberapa pertanyaan umum yang sering diajukan orang tua. Tidak menemukan jawaban yang Anda cari? Hubungi tim kami yang ramah!"
+  },
+  "contact": {
+    "badge": "Hubungi Kami",
+    "title": "Mulai Perjalanan Anak Anda",
+    "subtitle": "Isi formulir di bawah ini untuk memesan konsultasi tingkat bicara gratis atau menanyakan info seputar kelas kami.",
+    "nameLabel": "Nama Lengkap Anda *",
+    "childNameLabel": "Nama Anak *",
+    "childAgeLabel": "Usia Anak *",
+    "emailLabel": "Alamat Email Anda *",
+    "whatsappLabel": "Nomor WhatsApp / Telepon *",
+    "courseLabel": "Pilih Kelas yang Diinginkan",
+    "coursePlaceholder": "-- Pilih Tingkatan Kelas --",
+    "messageLabel": "Pesan / Catatan Khusus",
+    "messagePlaceholder": "Ceritakan sedikit tentang anak Anda (misal: sangat pemalu, suka mendongeng, ingin mempersiapkan presentasi di sekolah)...",
+    "buttonSending": "Mengirim Permohonan...",
+    "buttonSuccess": "Permohonan Berhasil Dikirim!",
+    "buttonSubmit": "Kirim Permintaan Booking",
+    "weWillReply": "Kami biasanya membalas lewat Email atau WhatsApp dalam waktu 24 jam.",
+    "contactDirect": "Ingin chat langsung?",
+    "chatWhatsApp": "Chat via WhatsApp"
+  },
+  "contactForm": {
+    "leftHeadline": "Siap Membantu Anak Anda Bicara dengan",
+    "leftHeadlineHighlight": "Percaya Diri",
+    "contactsTitle": "Kontak Kelas:",
+    "phoneText": "Nomor Telepon",
+    "emailText": "Alamat Email",
+    "leftSubtitle": "Isi formulir sederhana kami untuk menjadwalkan konsultasi gratis, mendapatkan silabus lengkap, atau bertanya apa saja.",
+    "sentTitle": "Yey! Terkirim!",
+    "sentSub": "Terima kasih! Kami telah menerima formulir Anda. Miss Velita atau tim admin kami akan menghubungi Anda dalam waktu 24 jam.",
+    "tipText": "**Tips**: Harap periksa email masuk Anda dari **{{email}}** atau pesan WhatsApp dari tim kami segera!",
+    "anotherBtn": "Kirim Formulir Lain",
+    "generalOption": "Umum / Belum Tahu",
+    "pastInquiries": "Lihat Permohonan Terkirim",
+    "hidePastInquiries": "Sembunyikan Permohonan",
+    "inquiringFor": "mengajukan kelas untuk",
+    "noMessage": "Tidak ada pesan"
+  },
+  "footer": {
+    "about": "Ruang komunikasi hangat dan penuh perhatian yang dirancang untuk membimbing anak-anak menuju rasa percaya diri public speaking yang berkelanjutan, empati sosial, dan ekspresi diri.",
+    "quickLinks": "Tautan Pintas",
+    "contact": "Info Kontak",
+    "rights": "Hak cipta dilindungi undang-undang.",
+    "madeWith": "Dibuat dengan",
+    "madeFor": "untuk pembicara muda yang percaya diri."
+  },
+  "courses": {
+    "echidna": {
+      "name": "Kelas Ekidna",
+      "subtitle": "Aku bisa menceritakan diriku.",
+      "description": "Sangat cocok untuk pembelajar muda yang baru memulai perjalanan berbicara di depan umum, Kelas Ekidna membantu anak-anak merasa nyaman mengekspresikan diri mereka. Melalui Show & Tell, role-play sederhana, dan aktivitas berbasis performa, siswa belajar memperkenalkan diri, berbagi pemikiran, dan berbicara dengan percaya diri yang tumbuh dalam lingkungan yang menyenangkan.",
+      "keyOutcome": "Membangun kenyamanan dan ekspresi dasar",
+      "outcomes": [
+        "Memperkenalkan diri dengan hangat dan membagikan fakta pribadi dasar",
+        "Berpartisipasi aktif dan penuh antusias dalam aktivitas Show & Tell",
+        "Menjaga kontak mata yang nyaman dan postur tubuh yang bersahabat",
+        "Mengembangkan proyeksi vokal dasar dan kejelasan bicara"
+      ]
+    },
+    "kasuari": {
+      "name": "Kelas Kasuari",
+      "subtitle": "Aku bisa bercerita dengan percaya diri.",
+      "description": "Mendorong anak-anak berpikir kreatif dan berkomunikasi dengan percaya diri lewat dongeng, bermain peran, dan aktivitas berbasis performa. Siswa belajar menyusun ide secara sistematis, menarik perhatian audiens, dan berekspresi dengan kejelasan penuh dalam pelajaran imajinatif.",
+      "keyOutcome": "Menguasai dongeng dan komunikasi kreatif",
+      "outcomes": [
+        "Menyusun narasi menggunakan pendahuluan, klimaks, dan kesimpulan",
+        "Memvariasikan proyeksi suara, nada, dan tempo untuk menciptakan ketertarikan",
+        "Menggunakan gerakan tangan yang bertujuan dan ekspresi wajah yang natural",
+        "Mendengarkan secara aktif dan merespons secara konstruktif terhadap teman sebaya"
+      ]
+    },
+    "bear": {
+      "name": "Kelas Beruang",
+      "subtitle": "Aku bisa mempresentasikan ide dan membawa perubahan.",
+      "description": "Dirancang untuk anak-anak yang siap melangkah lebih jauh, Kelas Beruang berfokus pada presentasi gagasan dengan tujuan nyata dan percaya diri. Siswa mengeksplorasi topik menarik seperti STEAM dan keberlanjutan sembari melatih kemampuan presentasi, berpikir kritis, dan persuasi yang berguna untuk masa depan.",
+      "keyOutcome": "Keunggulan dalam presentasi formal dan persuasi",
+      "outcomes": [
+        "Mempersiapkan dan menyampaikan presentasi formal dengan struktur slide",
+        "Mensintesis fakta dan menyusun argumen logis yang persuasif",
+        "Berbicara lancar secara spontan tentang berbagai topik edukasi",
+        "Merespons secara profesional pertanyaan dan masukan dari audiens"
+      ]
+    }
+  },
+  "faqs_list": [
+    {
+      "question": "Berapa usia anak yang bisa ikut?",
+      "answer": "Kami menawarkan kelas terarah untuk anak-anak berusia 5 hingga 14 tahun. Murid-murid dikelompokkan ke dalam Kelas Ekidna (usia 5-7), Kelas Kasuari (usia 8-10), dan Kelas Beruang (usia 11-14) agar materi kurikulum sesuai dengan perkembangan sosial dan kognitif mereka."
+    },
+    {
+      "question": "Apakah kelas diadakan online atau tatap muka?",
+      "answer": "Sesi kami berlangsung secara interaktif online di mana anak-anak dapat bergabung dengan aman dari kenyamanan rumah. Kelas online kami sangat menarik, menjaga grup tetap kecil dengan latihan bicara aktif, papan tulis digital, dan permainan presentasi agar anak tetap aktif belajar."
+    },
+    {
+      "question": "Berapa banyak anak dalam satu kelas?",
+      "answer": "Kami menjaga rasio murid-ke-guru yang rendah, dengan maksimal 6 hingga 8 anak per kelas. Ini memastikan setiap anak mendapat perhatian yang dipersonalisasi, memiliki banyak kesempatan bicara di setiap sesi, dan mendapat masukan yang ramah."
+    },
+    {
+      "question": "Apakah anak memerlukan pengalaman bicara sebelumnya?",
+      "answer": "Sama sekali tidak! Lebih dari 80% siswa kami memulai sebagai pemula dengan berbagai tingkat rasa pemalu. Kurikulum khusus kami yang bertahap dirancang untuk membimbing mereka dengan lembut dari kalimat sederhana hingga presentasi terstruktur."
+    },
+    {
+      "question": "Berapa lama durasi satu periode kelas dan apa yang didapat?",
+      "answer": "Satu periode kelas standar berlangsung selama 10 minggu, dengan satu sesi tatap muka langsung setiap minggu. Biaya kelas mencakup semua lembar kerja digital, rapor mingguan untuk orang tua, akses ke game latihan bicara digital, dan sertifikat kelulusan di akhir program."
+    }
+  ]
+}

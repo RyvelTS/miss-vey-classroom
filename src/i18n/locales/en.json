@@ -1,0 +1,187 @@
+{
+  "banner": "Enrollment Special: Book a free consultation today! Limited slots left.",
+  "nav": {
+    "logoTitle": "Miss Vey's",
+        "logoSubtitle": "Classroom",
+    "home": "Home",
+    "whyChooseUs": "Why Choose Us",
+    "courses": "Our Courses",
+    "founder": "Meet the Founder",
+    "faqs": "FAQs",
+    "contact": "Contact Us",
+    "labelLanguage": "Language",
+    "labelTheme": "Theme"
+  },
+  "hero": {
+    "badge": "Nurturing Young Speakers",
+    "headline": "Where Little Voices Grow Into ",
+    "headlineHighlight": "Confident Leaders",
+    "subheadline": "Interactive public speaking and creative communication courses for children aged 5\u201314. Let your child find their voice, speak clearly, and step into their confidence.",
+    "ctaBook": "Book Free Consultation",
+    "ctaCourses": "Explore Classes",
+    "ratingText": "Loved by 200+ families across the region"
+  },
+  "whyChooseUs": {
+    "title": "Why Parents Choose Us",
+    "subtitle": "Raise a Child Who Speaks with Confidence.",
+    "communicationTitle": "Improves Communication",
+    "communicationText": "We teach children not only how to speak, but also how to listen, respond, and share ideas thoughtfully.",
+    "confidenceTitle": "Builds Confidence",
+    "confidenceText": "Children learn to speak in front of others step by step, in a safe and encouraging environment.",
+    "learningTitle": "Fun Learning",
+    "learningText": "Every lesson includes games, storytelling, creative topics, and interactive activities that children enjoy.",
+    "opportunitiesTitle": "Opens Opportunities",
+    "opportunitiesText": "Strong speaking skills help children in school presentations, leadership activities, and future opportunities.",
+    "kasuariStage": "Kasuari Stage",
+    "kasuariAge": "Ages 7-8 \u2022 Deep Expression",
+    "echidnaStage": "Echidna Stage",
+    "echidnaAge": "Ages 5-6 \u2022 First Steps",
+    "bearStage": "Bear Stage",
+    "bearAge": "Ages 9-10 \u2022 Leadership & Debates",
+    "kasuariSpeech": "Hi!",
+    "echidnaSpeech": "I am brave!",
+    "bearSpeech": "Hello!",
+    "claraBadge": "Clara \u2022 Age 6",
+    "leoBadge": "Leo \u2022 Age 9",
+    "gamesCaption": "Interactive games designed by educational specialists.",
+    "claraAlt": "Clara speaking confidently",
+    "leoAlt": "Leo speaking confidently"
+  },
+  "curriculum": {
+    "badge": "Our Learning Paths",
+    "title": "Tailored Speech Programs",
+    "subtitle": "We group children by age and development to ensure every session is supportive, highly interactive, and perfectly matched to their growth level.",
+    "ageRange": "Age Range",
+    "duration": "Duration",
+    "keyOutcome": "Key Outcome",
+    "bookClass": "Book This Class",
+    "closeDetails": "Close Details",
+    "viewDetails": "View Full Course Details",
+    "learningOutcomes": "What Your Child Will Learn:"
+  },
+  "founder": {
+    "badge": "Meet the Founder",
+    "title": "Our Story & Vision",
+    "subtitle": "Connecting children with the power of friendly vocal expression.",
+    "para1": "Hello! I am Velita, the founder of Miss Vey's Classroom. As a seasoned public speaking educator, I have spent years helping children find joy in sharing their ideas. My mission is to build classrooms where every child is seen, heard, and deeply supported.",
+    "para2": "We believe speaking isn't about rigid perfection; it's about warmth, personality, and human connection. Our specialized curriculum guides children step-by-step from quiet, tentative sentences to standing tall, gesturing with confidence, and speaking from the heart.",
+    "ctaText": "Let's start your child's speaking journey together!",
+    "button": "Schedule a chat with Miss Vey"
+  },
+  "testimonials": {
+    "badge": "Loved by Families",
+    "title": "What Parents Say About Us",
+    "subtitle": "Hear first-hand success stories from parents who have seen their children find their voice and step into their confidence.",
+    "quote": "Confidence begins with a seed of encouragement. Watch your child bloom, express their ideas with absolute clarity, and inspire others."
+  },
+  "faqs": {
+    "badge": "Have Questions?",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Here are some of the common questions parents ask us. Can't find what you need? Reach out to our friendly team!"
+  },
+  "contact": {
+    "badge": "Get in Touch",
+    "title": "Start Your Child's Journey",
+    "subtitle": "Fill out the form below to book a free consultation or request general information about our upcoming terms.",
+    "nameLabel": "Your Full Name *",
+    "childNameLabel": "Child's Name *",
+    "childAgeLabel": "Child's Age *",
+    "emailLabel": "Your Email Address *",
+    "whatsappLabel": "WhatsApp / Phone Number *",
+    "courseLabel": "Select Preferred Class",
+    "coursePlaceholder": "-- Choose a Class Level --",
+    "messageLabel": "Message / Specific Concerns",
+    "messagePlaceholder": "Tell us a bit about your child (e.g., extremely shy, loves storytelling, wants to prepare for a school presentation)...",
+    "buttonSending": "Sending Request...",
+    "buttonSuccess": "Request Sent Successfully!",
+    "buttonSubmit": "Submit Booking Request",
+    "weWillReply": "We typically reply via Email or WhatsApp within 24 hours.",
+    "contactDirect": "Prefer direct chat?",
+    "chatWhatsApp": "Chat with us on WhatsApp"
+  },
+  "contactForm": {
+    "leftHeadline": "Ready to Help Your Child Speak with",
+    "leftHeadlineHighlight": "Confidence",
+    "contactsTitle": "Classroom Contacts:",
+    "phoneText": "Phone Number",
+    "emailText": "Email Address",
+    "leftSubtitle": "Fill out our simple inquiry form to book a free consultation, get detailed course outlines, or ask us any questions about classes.",
+    "sentTitle": "Woohoo! Sent!",
+    "sentSub": "Thank you! We've received your inquiry. Miss Velita or our enrollment team will reach out to you within 24 hours to guide your next steps.",
+    "tipText": "**Friendly Tip**: Look out for a welcome email from **{{email}}** or a friendly WhatsApp message very soon!",
+    "anotherBtn": "Send Another Inquiry",
+    "generalOption": "General / Unsure",
+    "pastInquiries": "View Sent Inquiries",
+    "hidePastInquiries": "Hide Sent Inquiries",
+    "inquiringFor": "inquiring for",
+    "noMessage": "No message left"
+  },
+  "footer": {
+    "about": "A warm, nurturing communication space designed to guide children toward lifelong public speaking confidence, social empathy, and self-expression.",
+    "quickLinks": "Quick Links",
+    "contact": "Contact Info",
+    "rights": "All rights reserved.",
+    "madeWith": "Made with",
+    "madeFor": "for confident young speakers."
+  },
+  "courses": {
+    "echidna": {
+      "name": "Echidna Class",
+      "subtitle": "I can talk about myself.",
+      "description": "Perfect for young learners beginning their public speaking journey, the Echidna Class helps children become comfortable expressing themselves. Through Show & Tell, simple role-playing, and performance-based activities, students learn to introduce themselves, share their thoughts, and speak with growing confidence in a fun and encouraging environment.",
+      "keyOutcome": "Build comfort and basic expressiveness",
+      "outcomes": [
+        "Introduce themselves warmly and share basic personal facts",
+        "Participate enthusiastically in Show & Tell activities",
+        "Maintain comfortable eye contact and friendly posture",
+        "Develop foundational vocal projection and clarity"
+      ]
+    },
+    "kasuari": {
+      "name": "Kasuari Class",
+      "subtitle": "I can tell stories with confidence.",
+      "description": "Encourages children to think creatively and communicate with confidence through storytelling, role-playing, and performance-based activities. Students learn to organise their ideas, engage an audience, and express themselves with clarity while enjoying imaginative and interactive lessons.",
+      "keyOutcome": "Master storytelling and creative communication",
+      "outcomes": [
+        "Structure narratives using introduction, climax, and conclusion",
+        "Vary voice projection, tone, and pace to create excitement",
+        "Utilize purposeful hand gestures and facial expressions",
+        "Listen actively and respond constructively to peers"
+      ]
+    },
+    "bear": {
+      "name": "Bear Class",
+      "subtitle": "I can present ideas and make a difference.",
+      "description": "Designed for children who are ready to take the next step, the Bear Class focuses on presenting ideas with purpose and confidence. Students explore engaging topics such as STEAM and sustainability while developing presentation, critical thinking, and persuasive communication skills that prepare them for school and beyond.",
+      "keyOutcome": "Excellence in formal presentations and persuasion",
+      "outcomes": [
+        "Prepare and deliver formal presentations with slide outlines",
+        "Synthesize facts and formulate logical, persuasive arguments",
+        "Speak fluently off-the-cuff on a variety of educational topics",
+        "Respond professionally to audience questions and feedback"
+      ]
+    }
+  },
+  "faqs_list": [
+    {
+      "question": "What age groups do you teach?",
+      "answer": "We offer tailored classes for children aged 5 to 14 years old. The students are grouped into Echidna Class (ages 5-7), Kasuari Class (ages 8-10), and Bear Class (ages 11-14) to ensure that curriculum materials and speech themes match their social and cognitive development."
+    },
+    {
+      "question": "Are classes online or in-person?",
+      "answer": "We conduct interactive online sessions where children can safely join from the comfort of home. Our online classrooms are highly engaging, keeping groups small with plenty of active speech practice, digital whiteboards, and digital presentation games so no child is left idle."
+    },
+    {
+      "question": "How many children are in each class?",
+      "answer": "We maintain a low student-to-teacher ratio, with a maximum of 6 to 8 children per class. This guarantees that every child receives highly personalized guidance, has multiple opportunities to speak during each session, and gets friendly feedback on their progress."
+    },
+    {
+      "question": "Do children need prior public speaking experience?",
+      "answer": "Not at all! Over 80% of our students start as complete beginners with varying levels of shyness. Our specialized, step-by-step curriculum is designed to gently guide them from saying simple sentences to giving fully structured presentations, celebrating every small win."
+    },
+    {
+      "question": "How long is each term and what is included?",
+      "answer": "Each standard term runs for 10 weeks, with one live session per week. The tuition includes all digital learning worksheets, a weekly feedback report card for parents, access to our digital class speech games, and a personalized graduation certificate at the end of the course."
+    }
+  ]
+}
