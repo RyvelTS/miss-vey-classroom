@@ -81,9 +81,9 @@ export default function Hero({ onScrollTo }: HeroProps) {
 
   // The newly generated high-fidelity crayon mascots matching the style of the mock exactly
   const leftMascotImage =
-    "/src/assets/images/crayon_hedgehog_left_1784544182115.png";
+    "/images/crayon_hedgehog_left_1784544182115.png"
   const rightMascotImage =
-    "/src/assets/images/crayon_bear_right_1784544197161.png";
+    "/images/crayon_bear_right_1784544197161.png"
 
   return (
     <section

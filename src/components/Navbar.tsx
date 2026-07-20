@@ -79,7 +79,7 @@ export default function Navbar({ onScrollTo, theme, setTheme }: NavbarProps) {
             >
               <div className="w-11 h-11 bg-white rounded-full overflow-hidden">
                 <img
-                  src="/src/assets/images/brand.png"
+                  src="/images/brand.png"
                   alt="Miss Vey's Classroom"
                   className="w-full h-full object-contain"
                 />

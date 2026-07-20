@@ -84,7 +84,7 @@ export default function MeetFounder() {
               <div className="absolute top-2 left-2 right-2 bottom-2 border-2 border-dashed border-brand-teal/30 rounded-3xl pointer-events-none"></div>
 
               <img
-                src="/src/assets/images/velita_founder_1784539815049.jpg"
+                src="/images/velita_founder_1784539815049.jpg"
                 alt="Velita - Founder of Miss Vey's Classroom"
                 className="w-full h-auto object-cover rounded-2xl border-2 border-brand-charcoal"
                 referrerPolicy="no-referrer"

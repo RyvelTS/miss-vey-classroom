@@ -54,7 +54,7 @@ export default function WhyChooseUs() {
                 <div className="relative shrink-0">
                   <div className="w-32 h-42 sm:w-40 sm:h-50 lg:w-48 lg:h-58 overflow-visible">
                     <img
-                      src="/src/assets/images/kasuari_1784539786425.png"
+                      src="/images/kasuari_1784539786425.png"
                       alt="Kasuari Mascot"
                       className="w-full h-full object-cover"
                     />
@@ -90,7 +90,7 @@ export default function WhyChooseUs() {
 
                 <div className="relative w-full h-full overflow-hidden rounded-3xl border-2 border-brand-charcoal z-10">
                   <img
-                    src="/src/assets/images/child_speaking_confident_girl_1784541050155.jpg"
+                    src="/images/child_speaking_confident_girl_1784541050155.jpg"
                     alt={t("whyChooseUs.claraAlt")}
                     className="w-full h-full object-cover"
                     referrerPolicy="no-referrer"
@@ -119,7 +119,7 @@ export default function WhyChooseUs() {
                 <div className="relative shrink-0 order-2 lg:order-2">
                   <div className="w-32 h-32 sm:w-40 sm:h-40 lg:w-48 lg:h-48">
                     <img
-                      src="/src/assets/images/echidna_1784539773350.png"
+                      src="/images/echidna_1784539773350.png"
                       alt="Echidna Mascot"
                       className="w-full h-full object-cover"
                     />
@@ -180,7 +180,7 @@ export default function WhyChooseUs() {
                   <div className="flex items-center justify-center -space-x-12 sm:-space-x-14">
                     <div className="w-full h-auto sm:w-64 sm:h-40 lg:w-80 lg:h-48">
                       <img
-                        src="/src/assets/images/trio_1784539786425.png"
+                        src="/images/trio_1784539786425.png"
                         alt="Trio Mascot"
                         className="w-full h-full object-cover"
                       />
@@ -206,7 +206,7 @@ export default function WhyChooseUs() {
 
                 <div className="relative w-full h-full overflow-hidden rounded-3xl border-2 border-brand-charcoal z-10">
                   <img
-                    src="/src/assets/images/child_speaking_confident_boy_1784541035919.jpg"
+                    src="/images/child_speaking_confident_boy_1784541035919.jpg"
                     alt={t("whyChooseUs.leoAlt")}
                     className="w-full h-full object-cover"
                     referrerPolicy="no-referrer"
@@ -235,7 +235,7 @@ export default function WhyChooseUs() {
                 <div className="relative shrink-0 order-2 lg:order-2">
                   <div className="w-32 h-32 sm:w-40 sm:h-40 lg:w-48 lg:h-48">
                     <img
-                      src="/src/assets/images/bear_1784539797025.png"
+                      src="/images/bear_1784539797025.png"
                       alt="Bear Mascot"
                       className="w-full h-full object-cover"
                     />

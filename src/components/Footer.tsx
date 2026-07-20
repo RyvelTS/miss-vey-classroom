@@ -29,7 +29,7 @@ export default function Footer({ onScrollTo }: FooterProps) {
             id="footer-logo-btn">
             <div className="w-10 h-10 bg-white rounded-xl overflow-hidden">
               <img
-                src="/src/assets/images/brand.png"
+                src="/images/brand.png"
                 alt="Miss Vey's Classroom"
                 className="w-full h-full object-contain"
               />

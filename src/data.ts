@@ -15,7 +15,7 @@ export const COURSES_DATA: Course[] = [
       "Maintain comfortable eye contact and friendly posture",
       "Develop foundational vocal projection and clarity"
     ],
-    imageSrc: "/src/assets/images/echidna_class_1784539773350.jpg",
+    imageSrc: "/images/echidna_class_1784539773350.jpg",
   },
   {
     id: "kasuari",
@@ -31,7 +31,7 @@ export const COURSES_DATA: Course[] = [
       "Utilize purposeful hand gestures and facial expressions",
       "Listen actively and respond constructively to peers"
     ],
-    imageSrc: "/src/assets/images/kasuari_class_1784539786425.jpg",
+    imageSrc: "/images/kasuari_class_1784539786425.jpg",
   },
   {
     id: "bear",
@@ -47,7 +47,7 @@ export const COURSES_DATA: Course[] = [
       "Speak fluently off-the-cuff on a variety of educational topics",
       "Respond professionally to audience questions and feedback"
     ],
-    imageSrc: "/src/assets/images/bear_class_1784539797025.jpg",
+    imageSrc: "/images/bear_class_1784539797025.jpg",
   }
 ];
 
