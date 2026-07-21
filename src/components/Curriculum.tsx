@@ -272,7 +272,7 @@ export default function Curriculum({ onSelectCourse }: CurriculumProps) {
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-brand-charcoal/90 via-brand-charcoal/30 to-transparent"></div>
                       <div className="absolute bottom-6 left-6 right-6">
-                        <h3 className="font-display text-2xl sm:text-3xl font-black text-white">
+                        <h3 className="font-display text-2xl sm:text-3xl font-black text-modal-title">
                           {cTrans.name}
                         </h3>
                       </div>
