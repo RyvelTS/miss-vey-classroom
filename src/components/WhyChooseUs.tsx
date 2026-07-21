@@ -28,7 +28,7 @@ export default function WhyChooseUs() {
           {/* ==================== ROW 1 ==================== */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
             {/* Left Column (Communication Block & Mascot) */}
-            <div className="lg:col-span-4 flex flex-col justify-between h-full space-y-10 order-1 lg:order-1 lg:translate-x-0 lg:z-20">
+            <div className="lg:col-span-4 flex flex-col justify-between h-full space-y-10 order-3 md:order-1 lg:order-1 lg:translate-x-0 lg:z-20">
               {/* Improves Communication */}
               <motion.div
                 initial={{ opacity: 0, x: -30 }}
@@ -78,7 +78,7 @@ export default function WhyChooseUs() {
             </div>
 
             {/* Center Column (Clara Public Speaking Image) */}
-            <div className="col-span-full lg:col-span-4 flex justify-center order-3 lg:order-2 lg:z-10 relative">
+            <div className="col-span-full lg:col-span-4 flex justify-center order-2 lg:z-10 relative">
               <motion.div
                 initial={{ opacity: 0, y: 40 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -100,7 +100,7 @@ export default function WhyChooseUs() {
             </div>
 
             {/* Right Column (Echidna Mascot & Builds Confidence Block) */}
-            <div className="lg:col-span-4 flex flex-col justify-between h-full space-y-10 order-2 lg:order-3 lg:translate-x-0 lg:z-20">
+            <div className="lg:col-span-4 flex flex-col justify-between h-full space-y-10 order-1 md:order-2 lg:order-3 lg:translate-x-0 lg:z-20">
               {/* Echidna Mascot Card */}
               <motion.div
                 initial={{ opacity: 0, scale: 0.9 }}
@@ -108,7 +108,7 @@ export default function WhyChooseUs() {
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: 0.1 }}
                 className="flex items-center justify-center lg:justify-end gap-5 pb-6 lg:text-right animate-pulse-slow">
-                <div className=" order-1 lg:order-1">
+                <div>
                   <p className="font-display text-lg sm:text-xl font-black text-brand-charcoal">
                     {t("whyChooseUs.echidnaStage")}
                   </p>
@@ -116,7 +116,7 @@ export default function WhyChooseUs() {
                     {t("courses.echidna.subtitle")}
                   </p>
                 </div>
-                <div className="relative shrink-0 order-2 lg:order-2">
+                <div className="relative shrink-0">
                   <div className="w-32 h-32 sm:w-40 sm:h-40 lg:w-48 lg:h-48">
                     <img
                       src="/images/echidna_1784539773350.png"

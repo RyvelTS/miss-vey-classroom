@@ -299,6 +299,18 @@ export default function Curriculum({ onSelectCourse }: CurriculumProps) {
                         </p>
                       </div>
 
+                      {/* STEAM Badge — Bear Class only */}
+                      {selectedCourse.id === "bear" && (
+                        <div className="bg-brand-coral/10 border-2 border-brand-coral/30 rounded-2xl p-4 text-center">
+                          <span className="font-display text-sm font-black text-brand-coral uppercase tracking-widest">
+                            STEAM
+                          </span>
+                          <p className="font-sans text-xs text-brand-charcoal/70 mt-1 leading-relaxed">
+                            Science &middot; Technology &middot; Engineering &middot; Arts &middot; Mathematics
+                          </p>
+                        </div>
+                      )}
+
                       {/* Syllabus / Outcomes checklist */}
                       <div className="space-y-3">
                         <h5 className="font-display text-lg font-black text-brand-charcoal">
