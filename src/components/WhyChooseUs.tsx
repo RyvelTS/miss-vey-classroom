@@ -78,7 +78,7 @@ export default function WhyChooseUs() {
             </div>
 
             {/* Center Column (Clara Public Speaking Image) */}
-            <div className="col-span-full lg:col-span-4 flex justify-center order-2 lg:z-10 relative">
+            <div className="col-span-full lg:col-span-4 flex justify-center order-2 md:order-3 lg:order-2 lg:z-10 relative">
               <motion.div
                 initial={{ opacity: 0, y: 40 }}
                 whileInView={{ opacity: 1, y: 0 }}
