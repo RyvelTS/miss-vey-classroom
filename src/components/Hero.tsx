@@ -76,7 +76,7 @@ export default function Hero({ onScrollTo }: HeroProps) {
   const welcomeTitle = {
     en: "Welcome to Miss Vey's Classroom",
     id: "Selamat Datang di Miss Vey's Classroom",
-    zh: "欢迎来到维老师的课堂 (Miss Vey's Classroom)",
+    zh: "欢迎来到 Miss Vey's Classroom",
   }[lang];
 
   // The newly generated high-fidelity crayon mascots matching the style of the mock exactly

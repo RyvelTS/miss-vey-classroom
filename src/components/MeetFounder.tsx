@@ -47,16 +47,16 @@ export default function MeetFounder() {
         "Saya percaya setiap anak memiliki ide-ide indah yang layak dibagikan, dan kepercayaan diri tumbuh secara alami saat kita menyediakan lingkungan yang hangat dan mendukung untuk bersuara.",
     },
     zh: {
-      meetBadge: "走近薇老师",
+      meetBadge: "走进 Miss Vey 的课堂",
       titleStart: "课堂背后那颗",
       titleEnd: "温热的心灵",
-      journeyTitle: "薇老师的教育旅程：",
+      journeyTitle: "Miss Vey 的教育旅程：",
       medTitle: "教育学硕士 (M.Ed.)",
       medText: "专注于少儿早期教育开发、成长心理与沟通技巧。",
       mcTitle: "专业中英双语 MC",
       mcText: "曾主持过百余场线上、线下、国家及国际级的儿童和成人活动。",
       travelText:
-        "曾游历全球约 40 个国家，我深信卓越的沟通能跨越文化隔阂，开启无限未来。这一信念深深植根于薇老师创意演讲课堂的每一堂课中。",
+        "曾游历全球约 40 个国家，我深信卓越的沟通能跨越文化隔阂，开启无限未来。这一信念深深植根于 Miss Vey's Classroom 的每一堂课中。",
       quote:
         "我深信每一个孩子的心中，都藏着值得分享的美丽想法。只要我们提供温暖、充满鼓励的环境，孩子就能自然而然地挺拔站立，绽放光彩。",
     },
