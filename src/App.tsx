@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { useTranslation } from "react-i18next";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
@@ -44,15 +44,22 @@ export default function App() {
     document.documentElement.lang = i18n.language;
   }, [i18n.language]);
 
+  // Guard that prevents the Navbar scroll handler from collapsing
+  // while a programmatic smooth scroll is in progress.
+  const isNavigating = useRef(false);
+
   const handleScrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {
-      // Measure the actual navbar height so the offset is always correct,
-      // whether the nav is collapsed (~90px) or expanded (~120px).
+      isNavigating.current = true;
       const nav = document.querySelector('nav.sticky');
       const navHeight = nav ? nav.getBoundingClientRect().height : 90;
       const top = element.getBoundingClientRect().top + window.scrollY - navHeight;
       window.scrollTo({ top, behavior: "smooth" });
+      // Reset after smooth scroll finishes
+      setTimeout(() => {
+        isNavigating.current = false;
+      }, 1500);
     }
   };
 
@@ -73,6 +80,7 @@ export default function App() {
       {/* Main Navbar */}
       <Navbar
         onScrollTo={handleScrollToSection}
+        isNavigating={isNavigating}
         theme={theme}
         setTheme={setTheme}
       />

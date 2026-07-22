@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
-import { Send, CheckCircle2, Phone, Mail, Users, MapPin } from "lucide-react";
+import { Send, CheckCircle2, Phone, Mail, Users } from "lucide-react";
 import { ContactInquiry } from "../types";
 import { useTranslation } from "react-i18next";
-import { EMAIL, PHONE, RATE_LIMIT_MS } from "../constants";
+import { EMAIL, RATE_LIMIT_MS } from "../constants";
 
 interface ContactFormProps {
   selectedCourseId: string;
@@ -83,24 +83,6 @@ export default function ContactForm({ selectedCourseId }: ContactFormProps) {
 
     setIsSubmitting(true);
 
-    // Build pre-filled WhatsApp message
-    const messageLines = [
-      `New Class Inquiry`,
-      ``,
-      `Parent Name: ${formData.parentName}`,
-      `Child Name: ${formData.childName}`,
-      `Child Age: ${formData.childAge}`,
-      `Email: ${formData.email}`,
-      `Phone: ${formData.phone}`,
-      `Course Interest: ${formData.courseInterest || "Not specified"}`,
-      `Message: ${formData.message || "-"}`,
-    ].join("\n");
-
-    const encodedMessage = encodeURIComponent(messageLines);
-    // Strip "+" from phone for WhatsApp URL format
-    const waNumber = PHONE.replace(/^\+/, "");
-    const waLink = `https://wa.me/${waNumber}?text=${encodedMessage}`;
-
     // Save inquiry to localStorage for history
     const updatedInquiries = [formData, ...pastInquiries];
     setPastInquiries(updatedInquiries);
@@ -114,7 +96,11 @@ export default function ContactForm({ selectedCourseId }: ContactFormProps) {
     }
 
     // Open WhatsApp chat in new tab
-    window.open(waLink, "_blank", "noopener,noreferrer");
+    window.open(
+      "https://wa.me/message/YHV7MSJVPRWFK1",
+      "_blank",
+      "noopener,noreferrer",
+    );
 
     // Record submission timestamp for rate limiting
     localStorage.setItem("miss_veys_last_submit", String(Date.now()));
@@ -179,7 +165,7 @@ export default function ContactForm({ selectedCourseId }: ContactFormProps) {
             {/* School Contacts Info */}
             <div className="space-y-4 bg-brand-card p-6 rounded-[2rem] border-4 border-brand-charcoal shadow-neo-sm">
               <span className="font-display text-sm font-black text-brand-coral block mb-3 uppercase tracking-wider">
-                <MapPin className="w-4 h-4 inline" />{" "}
+                <Phone className="w-4 h-4 mr-3 inline" />{" "}
                 {t("contactForm.contactsTitle")}
               </span>
 
@@ -189,26 +175,31 @@ export default function ContactForm({ selectedCourseId }: ContactFormProps) {
                 </div>
                 <div>
                   <span className="block font-sans text-xs font-bold text-brand-charcoal/50 uppercase">
-                                      {t("contactForm.emailText")}
+                    {t("contactForm.emailText")}
                   </span>
-                  <span className="block font-display text-sm sm:text-base text-brand-charcoal font-black">
+                  <a
+                    href={`mailto:${EMAIL}`}
+                    className="block font-display text-sm sm:text-base text-brand-charcoal font-black hover:text-brand-coral transition-colors">
                     {EMAIL}
-                  </span>
+                  </a>
                 </div>
               </div>
 
-              <div className="flex items-center gap-4">
-                <div className="w-10 h-10 rounded-xl bg-brand-yellow/30 border border-brand-charcoal flex items-center justify-center shrink-0 text-brand-charcoal">
-                  <Phone className="w-5 h-5" />
-                </div>
-                <div>
-                  <span className="block font-sans text-xs font-bold text-brand-charcoal/50 uppercase">
-                                      {t("contactForm.phoneText")}
+              {/* WhatsApp QR Code */}
+              <div className="bg-brand-charcoal border-2 border-brand-cream/20 rounded-2xl p-5 shadow-[3px_3px_0px_0px_var(--bg-app)] flex flex-col max-[420px]:items-center min-[420px]:flex-row min-[420px]:justify-between gap-5">
+                <div className="flex flex-col justify-center shrink-0 max-[420px]:text-center min-[420px]:max-w-[120px] gap-1">
+                  <span className="font-display text-xs font-black text-brand-cream uppercase tracking-wider leading-snug">
+                    {t("contactForm.scanWhatsApp")}
                   </span>
-                  <span className="block font-display text-sm sm:text-base text-brand-charcoal font-black">
-                    {PHONE}
+                  <span className="font-sans text-[10px] text-brand-cream/50 leading-tight">
+                    {t("contactForm.scanWhatsAppSub")}
                   </span>
                 </div>
+                <img
+                  src="/images/wa_contact_1784539815049.jpg"
+                  alt="WhatsApp QR Code"
+                  className="w-full min-[420px]:w-32 aspect-square rounded-xl border-2 border-brand-cream/20 object-cover"
+                />
               </div>
             </div>
 

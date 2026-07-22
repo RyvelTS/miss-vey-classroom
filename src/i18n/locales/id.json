@@ -102,7 +102,7 @@
   "contactForm": {
     "leftHeadline": "Siap Membantu Anak Anda Bicara dengan",
     "leftHeadlineHighlight": "Percaya Diri",
-    "contactsTitle": "Kontak Kelas:",
+    "contactsTitle": "Hubungi Miss Vey's Classroom",
     "phoneText": "Nomor Telepon",
     "emailText": "Alamat Email",
     "leftSubtitle": "Isi formulir sederhana kami untuk menjadwalkan konsultasi gratis, mendapatkan silabus lengkap, atau bertanya apa saja.",
@@ -114,7 +114,9 @@
     "pastInquiries": "Lihat Permohonan Terkirim",
     "hidePastInquiries": "Sembunyikan Permohonan",
     "inquiringFor": "mengajukan kelas untuk",
-    "noMessage": "Tidak ada pesan"
+    "noMessage": "Tidak ada pesan",
+    "scanWhatsApp": "Scan untuk chat via WhatsApp",
+    "scanWhatsAppSub": "Mulai perjalanan bicara mereka hari ini"
   },
   "footer": {
     "about": "Ruang komunikasi hangat dan penuh perhatian yang dirancang untuk membimbing anak-anak menuju rasa percaya diri public speaking yang berkelanjutan, empati sosial, dan ekspresi diri.",

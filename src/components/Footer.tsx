@@ -1,6 +1,6 @@
 import { Instagram, Heart } from "lucide-react";
 import { useTranslation } from "react-i18next";
-import { EMAIL, PHONE } from "../constants";
+import { EMAIL } from "../constants";
 
 interface FooterProps {
   onScrollTo: (sectionId: string) => void;
@@ -122,17 +122,9 @@ export default function Footer({ onScrollTo }: FooterProps) {
               <span className="shrink-0 text-brand-teal font-black uppercase tracking-wider text-xs">
                 Email:
               </span>
-              <span className="text-brand-cream/80 hover:text-brand-teal">
+              <a href={`mailto:${EMAIL}`} className="text-brand-cream/80 hover:text-brand-teal transition-colors">
                 {EMAIL}
-              </span>
-            </li>
-            <li className="flex items-start gap-2">
-              <span className="shrink-0 text-brand-teal font-black uppercase tracking-wider text-xs">
-                Phone:
-              </span>
-              <span className="text-brand-cream/80 hover:text-brand-teal">
-                {PHONE}
-              </span>
+              </a>
             </li>
           </ul>
         </div>

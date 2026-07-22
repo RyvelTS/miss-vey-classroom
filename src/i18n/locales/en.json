@@ -102,7 +102,7 @@
   "contactForm": {
     "leftHeadline": "Ready to Help Your Child Speak with",
     "leftHeadlineHighlight": "Confidence",
-    "contactsTitle": "Classroom Contacts:",
+    "contactsTitle": "Contact Miss Vey's Classroom",
     "phoneText": "Phone Number",
     "emailText": "Email Address",
     "leftSubtitle": "Fill out our simple inquiry form to book a free consultation, get detailed course outlines, or ask us any questions about classes.",
@@ -114,7 +114,9 @@
     "pastInquiries": "View Sent Inquiries",
     "hidePastInquiries": "Hide Sent Inquiries",
     "inquiringFor": "inquiring for",
-    "noMessage": "No message left"
+    "noMessage": "No message left",
+    "scanWhatsApp": "Scan to chat via WhatsApp",
+    "scanWhatsAppSub": "Start their speaking journey today"
   },
   "footer": {
     "about": "A warm, nurturing communication space designed to guide children toward lifelong public speaking confidence, social empathy, and self-expression.",

@@ -1,23 +1,20 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 import { Menu, X, MessageCircle, Sun, Moon, ChevronDown, ChevronUp } from "lucide-react";
 import { motion } from "motion/react";
 import { useTranslation } from "react-i18next";
 
 interface NavbarProps {
   onScrollTo: (sectionId: string) => void;
+  isNavigating: React.MutableRefObject<boolean>;
   theme: "light" | "dark";
   setTheme: (theme: "light" | "dark") => void;
 }
 
-export default function Navbar({ onScrollTo, theme, setTheme }: NavbarProps) {
+export default function Navbar({ onScrollTo, isNavigating, theme, setTheme }: NavbarProps) {
   const { t, i18n } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuManuallyOpen, setIsMenuManuallyOpen] = useState(false);
-
-  // Guard that prevents the scroll handler from collapsing the navbar
-  // while a programmatic (nav-click) smooth scroll is in progress.
-  const isNavigating = useRef(false);
 
   const lang = i18n.language as "en" | "id" | "zh";
 
@@ -31,24 +28,9 @@ export default function Navbar({ onScrollTo, theme, setTheme }: NavbarProps) {
 
   // ── Nav click handler ────────────────────────────────────────────
   const handleNavClick = (sectionId: string) => {
-    isNavigating.current = true;
     setIsOpen(false);
     onScrollTo(sectionId);
-    // Fallback reset for browsers without scrollend support.
-    setTimeout(() => {
-      isNavigating.current = false;
-    }, 2000);
   };
-
-  // Reset the guard once the smooth scroll finishes.
-  // scrollend is standard; timeout is a fallback for older browsers.
-  useEffect(() => {
-    const resetGuard = () => {
-      isNavigating.current = false;
-    };
-    window.addEventListener("scrollend", resetGuard);
-    return () => window.removeEventListener("scrollend", resetGuard);
-  }, []);
 
   // Scroll detection to trigger minimized vs expanded layout
   useEffect(() => {
