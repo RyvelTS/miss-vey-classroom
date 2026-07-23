@@ -72,7 +72,8 @@
     "badge": "Loved by Families",
     "title": "What Parents Say About Us",
     "subtitle": "Hear first-hand success stories from parents who have seen their children find their voice and step into their confidence.",
-    "quote": "Confidence begins with a seed of encouragement. Watch your child bloom, express their ideas with absolute clarity, and inspire others."
+    "quote": "Confidence begins with a seed of encouragement. Watch your child bloom, express their ideas with absolute clarity, and inspire others.",
+    "relationshipLabel": "{{relationship}} of {{childName}} (Age {{childAge}})"
   },
   "faqs": {
     "badge": "Have Questions?",

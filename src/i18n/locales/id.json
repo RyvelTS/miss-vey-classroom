@@ -2,7 +2,7 @@
   "banner": "Spesial Pendaftaran: Pesan sesi konsultasi gratis hari ini! Slot terbatas.",
   "nav": {
     "logoTitle": "Miss Vey's",
-        "logoSubtitle": "Classroom",
+    "logoSubtitle": "Classroom",
     "home": "Beranda",
     "whyChooseUs": "Mengapa Kami",
     "courses": "Program Kami",
@@ -72,7 +72,8 @@
     "badge": "Dicintai oleh Banyak Keluarga",
     "title": "Apa Kata Orang Tua",
     "subtitle": "Dengarkan langsung kisah sukses dari para orang tua yang telah melihat buah hati mereka menemukan suara dan tingkat percaya diri mereka.",
-    "quote": "Rasa percaya diri dimulai dari benih dorongan yang tulus. Saksikan anak Anda berkembang pesat, mengekspresikan ide dengan kejelasan penuh, dan menginspirasi orang lain."
+    "quote": "Rasa percaya diri dimulai dari benih dorongan yang tulus. Saksikan anak Anda berkembang pesat, mengekspresikan ide dengan kejelasan penuh, dan menginspirasi orang lain.",
+    "relationshipLabel": "{{relationship}} dari {{childName}} (Usia {{childAge}})"
   },
   "faqs": {
     "badge": "Ada Pertanyaan?",
